@@ -156,7 +156,7 @@
 											</div>
 										</div>
 									</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="">
+									<a href="<?php echo base_url('login/logout') ?>">
 										<span class="symbol symbol-36">
 											<span class="symbol-label font-size-h5 font-weight-bold text-white bg-white-o-15">Logout</span>
 										</span>
@@ -222,7 +222,7 @@
 												<div class="menu-submenu menu-submenu-classic menu-submenu-left">
 													<ul class="menu-subnav">
 														<li class="menu-item menu-item-submenu" data-menu-toggle="hover" aria-haspopup="true">
-															<a href="javascript:;" class="menu-link menu-toggle">
+															<a href="<?php echo base_url('groups') ?>" class="menu-link">
 																<span class="svg-icon menu-icon">
 																	<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Box2.svg-->
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -238,7 +238,7 @@
 															</a>
 														</li>
 														<li class="menu-item menu-item-submenu" data-menu-toggle="hover" aria-haspopup="true">
-															<a href="javascript:;" class="menu-link menu-toggle">
+															<a href="<?php echo base_url('categories') ?>" class="menu-link">
 																<span class="svg-icon menu-icon">
 																	<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Box2.svg-->
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -257,7 +257,7 @@
 												</div>
 											</li>
 											<li class="menu-item menu-item-submenu menu-item-rel" data-menu-toggle="click" aria-haspopup="true">
-												<a href="javascript:;" class="menu-link menu-toggle">
+												<a href="<?php echo base_url('users') ?>" class="menu-link">
 													<span class="menu-text">Users</span>
 													<span class="menu-desc"></span>
 													<i class="menu-arrow"></i>
